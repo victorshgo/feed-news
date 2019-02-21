@@ -1,0 +1,102 @@
+html,
+body{
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  background: #ddd;
+}
+ 
+.card-content {
+  text-align: center;
+  .card-new {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background: white;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    text-align: left;
+    
+    span {
+      display: inline-block;
+      position: absolute;
+      padding: 2px 10px;
+      background: #2143db;
+      right: 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: #fff;
+    }
+    h3 {
+      font-size: 16pt;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .card-popular {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background: white;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    text-align: left;
+    span {
+      display: inline-block;
+      position: absolute;
+      padding: 2px 10px;
+      background: #e8153f;
+      right: 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: #fff;
+    }
+    h3 {
+      font-size: 16pt;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .card-favorite {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background: white;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    text-align: left;
+    span {
+      display: inline-block;
+      position: absolute;
+      padding: 2px 10px;
+      background: #e8d017;
+      right: 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: #fff;
+    }
+    h3 {
+      font-size: 16pt;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.card-content {
+  text-align: center;
+  .card {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background: $card-color;
+    margin: 1rem;
+    padding: 10px;
+    text-align: left;
+    h3 {
+      margin-top: 30px;
+      @include font-source-sans(20px, $primary-text-color, bold);
+    }
+    p {
+      @include font-source-sans(16px, $secundary-text-color);
+    }
+    .card-tag {
+      display: inline-block;
+      position: absolute;
+      padding: 2px 10px;
+      right: 10px;
+      @include font-source-sans(12px, white);
+    }
+    &.new {
+      .card-tag {
+        background: $new-color;
+      }
+    }
+    &.popular {
+      .card-tag {
+        background: $popular-color;
+      }
+    }
+    &.favorite {
+      .card-tag {
+        background: $favorite-color;
+      }
+    }
+  }
+}

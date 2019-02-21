@@ -1,0 +1,62 @@
+.shadow-1 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.rounded-6 {
+  border-radius: 6px;
+}
+
+.rounded-20 {
+  border-radius: 20px;
+}
+
+.card-content {
+  text-align: center;
+}
+.card-content .card {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background: white;
+  margin: 1rem;
+  padding: 10px;
+  text-align: left;
+}
+.card-content .card h3 {
+  margin-top: 30px;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #292929;
+  font-weight: bold;
+}
+.card-content .card p {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: rgba(41, 41, 41, 0.8);
+}
+.card-content .card .card-tag {
+  display: inline-block;
+  position: absolute;
+  padding: 2px 10px;
+  right: 10px;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: white;
+}
+.card-content .card.new .card-tag {
+  background: #2143db;
+}
+.card-content .card.popular .card-tag {
+  background: #e8153f;
+}
+.card-content .card.favorite .card-tag {
+  background: #e8d017;
+}
+
+html,
+body {
+  background: #ddd;
+}
+
+/*# sourceMappingURL=style.css.map */

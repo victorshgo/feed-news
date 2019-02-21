@@ -1,0 +1,5 @@
+$shadow-color: #000;
+
+.shadow-1 {
+  box-shadow: 0 3px 6px rgba($shadow-color, 0.16), 0 3px 6px rgba($shadow-color, 0.23);
+}

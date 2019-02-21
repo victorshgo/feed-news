@@ -1,0 +1,101 @@
+html,
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  background: #ddd;
+}
+
+.card-content {
+  text-align: center;
+}
+.card-content .card-new {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background: white;
+  margin: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: left;
+}
+.card-content .card-new span {
+  display: inline-block;
+  position: absolute;
+  padding: 2px 10px;
+  background: #2143db;
+  right: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #fff;
+}
+.card-content .card-new h3 {
+  font-size: 16pt;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.card-content .card-new p {
+  font-size: 14px;
+}
+.card-content .card-popular {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background: white;
+  margin: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: left;
+}
+.card-content .card-popular span {
+  display: inline-block;
+  position: absolute;
+  padding: 2px 10px;
+  background: #e8153f;
+  right: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #fff;
+}
+.card-content .card-popular h3 {
+  font-size: 16pt;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.card-content .card-popular p {
+  font-size: 14px;
+}
+.card-content .card-favorite {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background: white;
+  margin: 1rem;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  text-align: left;
+}
+.card-content .card-favorite span {
+  display: inline-block;
+  position: absolute;
+  padding: 2px 10px;
+  background: #e8d017;
+  right: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #fff;
+}
+.card-content .card-favorite h3 {
+  font-size: 16pt;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.card-content .card-favorite p {
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */
